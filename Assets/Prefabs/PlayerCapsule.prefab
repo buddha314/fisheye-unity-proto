@@ -113,6 +113,7 @@ GameObject:
   - component: {fileID: 1925873226565265918}
   - component: {fileID: 2468714030164847400}
   - component: {fileID: -7705710273399093215}
+  - component: {fileID: -6356344189758686446}
   m_Layer: 8
   m_Name: PlayerCapsule
   m_TagString: Player
@@ -340,6 +341,20 @@ MonoBehaviour:
   AlwaysReplicateAsRoot: 0
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
+--- !u!114 &-6356344189758686446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925873226565265906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bcf0e8fac84b0144b7c8be17aa7ed0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Position:
+    m_InternalValue: {x: 0, y: 0, z: 0}
 --- !u!1 &6074239116653777065
 GameObject:
   m_ObjectHideFlags: 0
